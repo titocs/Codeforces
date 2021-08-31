@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int n, s, count = 0, total = 0;
+    int n, s, count = 0;
     cin >> n >> s;
     while(s != 0){
         if(s - n < 0) n--;
