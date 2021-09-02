@@ -12,10 +12,7 @@ int main(){
     for_each(b.begin(), b.end(), [](char & c){
         c = ::tolower(c);
     });
-    if(a == b)
-        cout << "0";
-    else if(a < b)
-        cout << "-1";
-    else
-        cout << "1";
+    if(a == b) cout << "0";
+    else if(a < b) cout << "-1";
+    else cout << "1";
 }
