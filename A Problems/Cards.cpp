@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    int n, z = 0, no = 0; cin >> n;
+    int n; cin >> n;
     string s; cin >> s;
     sort(s.begin(), s.end());
     for(int i=0; i<s.length(); ++i){
