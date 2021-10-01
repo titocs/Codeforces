@@ -9,11 +9,7 @@ int main(){
     vector<int> arr(n);
     for(int i=0; i<n; ++i){
         cin >> arr[i];
-    }
-    for(int i=0; i<n; ++i){
-        if(arr[i] <= h)
-            count++;
-        else count += 2;
+        (arr[i] <= h ? count++ : count += 2);
     }
     cout << count;
 }
