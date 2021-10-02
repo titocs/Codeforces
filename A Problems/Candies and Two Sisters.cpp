@@ -10,9 +10,6 @@ int main(){
     while(t--){
         long long int n;
         cin >> n;
-        if(n < 3) cout << 0 << '\n';
-        else{
-            cout << (n - 1)/2 << '\n';
-        }
+        cout << (n < 3 ? 0 : (n-1)/2) << '\n';
     }
 }
