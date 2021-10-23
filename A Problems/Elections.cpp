@@ -31,8 +31,7 @@ int main(){
                     if(arr[i] == maks)
                         cout << (maks + 1) - arr[i] << " ";
                 }
-                else
-                    cout << (maks + 1) - arr[i] << " ";
+                else cout << (maks + 1) - arr[i] << " ";
             }
             cout << endl;
         }
