@@ -36,5 +36,4 @@ int main(){
             cout << endl;
         }
     }
-    
 }
