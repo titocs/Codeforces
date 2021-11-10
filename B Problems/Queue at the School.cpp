@@ -1,5 +1,4 @@
 // Link problem: https://codeforces.com/problemset/problem/266/B
-
 #include <bits/stdc++.h>
 using namespace std;
 
